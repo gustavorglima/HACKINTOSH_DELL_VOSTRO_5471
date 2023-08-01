@@ -1,8 +1,8 @@
-# Dell Vostro 5471 Hackintosh (I sold the laptop, this repo will no longer be updated)
+# Hackintosh of Dell Vostro 5471 with Mac OS Ventura
 
-EFI for Dell Vostro 5471 with OpenCore bootloader
+EFI for Dell Vostro 5471 with OpenCore 0.9.3 bootloader
 
-![descrizione](./Screenshot/portatile.jpg)
+![descrizione](./screenshots/dell_vostro_5471.jpg)
 
 ### Computer Spec:
 
@@ -22,16 +22,7 @@ EFI for Dell Vostro 5471 with OpenCore bootloader
 | BootLoader       | OpenCore 0.6.2                     |
 
 
-![infobigsur](./Screenshot/infomacbigsur.png)
-
-## Peripherals
-
-![infohack](./Screenshot/hackintooldevice.png)
-![infodp2](./Screenshot/DpciScreen2.png)
-![infogpu](./Screenshot/hackintooligpu.png)
-![usbmap](./Screenshot/mapusb.png)
-![wifispeed](./Screenshot/wifispeed.png)
-![infopci](./Screenshot/PCISEZ.png)
+![infobigsur](./screenshots/about.png)
 
 ### What works and What doesn't or WIP:
 
@@ -55,6 +46,30 @@ EFI for Dell Vostro 5471 with OpenCore bootloader
 - [ ] dGPU Amd 530 (unsupported)
 - [ ] ALC295 Combojack microphone
 
+### BIOS Information:
+- Enable Legacy Option ROMs: **OFF**
+- SATA Operation: **AHCI**
+- Drives: **only M.2 PCIe SSD-0 (512GB) is enabled**
+- SMART reporting: **OFF**
+- PPT Security, PTT: **OFF**
+- Secure Boot: **OFF**
+- Intel SGX: **Disabled**
+- Multi Core support: **All**
+- Intel SpeedStep: **ON**
+- C States: **ON**
+- Intel Turbo Boost: **ON**
+- HyperThread: **Enabled**
+- Intel Speed Shift: **ON**
+- USB Wake: **OFF**
+- Block sleep: **OFF**
+- FN Lock: **ON**
+- FN Lock Mode: **Disable/Standard**
+- Fastboot: **Thorough**
+- Intel Virtualization Technology: **Enabled**
+- VT for Direct I/O: **Disabled**
+- Wireless and Bluetooth: **ON**
+- Auto OS Recovery Threshold: **OFF**
+
 ### Special Config:
 
 - Usb port mapping performed
@@ -62,14 +77,16 @@ EFI for Dell Vostro 5471 with OpenCore bootloader
 - Applied cosmetics PCI Dev
 
 ### Post Install:
+#### Combo Jack
 
-Open terminal and run install.sh from PostInsall/ComboJackAlc295. After reboot insert jack and appears this image
-![jack](./Screenshot/Combojackfix.png)
+To your headphones works, you need to install Combo Jack:
 
-### SSDT Info
-![ssdt](./Screenshot/ssdtscreen.png)
-
-See [ioreg](./ioregmacbook.ioreg) for more clarification
+**Open terminal and run:**
+```
+chmod +x PostInstall/ComboJackAlc295/install.sh
+./PostInstall/ComboJackAlc295/install.sh
+```
+![jack](./screenshots/combojack.png)
 
 ## Credits
 
@@ -78,5 +95,4 @@ See [ioreg](./ioregmacbook.ioreg) for more clarification
 - [Dortania](https://github.com/dortania) For their detailed guides.
 - [Lorys89](https://github.com/Lorys89)
 - [Hackintoshlifeit](https://github.com/Hackintoshlifeit)
-
-# If you need help please contact us on [Telegram](https://t.me/HackintoshLife_it) or [Web](https://www.hackintoshlife.it/)
+- [gustavorglima](https://github.com/gustavorglima)
