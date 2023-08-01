@@ -92,7 +92,7 @@ chmod +x PostInstall/ComboJackAlc295/install.sh
 
 - [Apple](https://apple.com) for macOS;
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
-- [Dortania](https://github.com/dortania) For their detailed guides.
-- [Lorys89](https://github.com/Lorys89)
+- [Dortania](https://github.com/dortania) for their detailed guides.
+- [Lorys89](https://github.com/Lorys89) for first version of this EFI
 - [Hackintoshlifeit](https://github.com/Hackintoshlifeit)
-- [gustavorglima](https://github.com/gustavorglima)
+- [gustavorglima](https://github.com/gustavorglima) for updating this EFI OpenCore and Mac OS Ventura
