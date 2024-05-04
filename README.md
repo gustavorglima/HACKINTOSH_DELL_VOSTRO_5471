@@ -36,7 +36,7 @@ EFI for Dell Vostro 5471 with OpenCore 0.9.3 bootloader
 - [x] SpeedStep / Sleep / Wake
 - [x] I2C Touchpad with gesture
 - [x] Brightness Key
-- [x] Wi-Fi and Bluetooth BCM943602BAED (DW1830) Module
+- [x] Wi-Fi and Bluetooth [BCM94352 DW1820A NGFF- 5G Module]([https://pt.aliexpress.com/item/1005005808160004.html])
 - [x] Realtek RTL8168 LAN
 - [x] USB Cardreader
 - [x] ACPI Battery
@@ -75,6 +75,7 @@ EFI for Dell Vostro 5471 with OpenCore 0.9.3 bootloader
 - Usb port mapping performed
 - SSDT-Hack Essential patch
 - Applied cosmetics PCI Dev
+- Added BlueToolFixup.kext to WI-FI + Bluetooth (BCM94352 DW1820A NGFF- 5G)
 
 ### Post Install:
 #### Combo Jack
