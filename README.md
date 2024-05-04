@@ -42,9 +42,9 @@ EFI for Dell Vostro 5471 with OpenCore 0.9.3 bootloader
 - [x] ACPI Battery
 - [x] NVRAM
 - [x] Windows boot from OpenCore
+- [x] ALC295 Combojack microphone
 - [ ] Fingerprint (unsupported)
 - [ ] dGPU Amd 530 (unsupported)
-- [ ] ALC295 Combojack microphone
 
 ### BIOS Information:
 - Enable Legacy Option ROMs: **OFF**
