@@ -1,6 +1,6 @@
 # Hackintosh of Dell Vostro 5471 with Mac OS Ventura
 
-EFI for Dell Vostro 5471 with OpenCore 0.9.3 bootloader
+EFI for Dell Vostro 5471 with OpenCore 1.0.0 bootloader
 
 ![descrizione](./screenshots/dell_vostro_5471.jpg)
 
@@ -45,6 +45,7 @@ EFI for Dell Vostro 5471 with OpenCore 0.9.3 bootloader
 - [x] ALC295 Combojack microphone
 - [ ] Fingerprint (unsupported)
 - [ ] dGPU Amd 530 (unsupported)
+- [ ] Fix boot taking too long (4~5 minutes)
 
 ### BIOS Information:
 - Enable Legacy Option ROMs: **OFF**
